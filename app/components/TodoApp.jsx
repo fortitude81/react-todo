@@ -67,6 +67,7 @@ var TodoApp = React.createClass({
             </div>
           </div>
         </div>
+        <img id="butters" src={"https://upload.wikimedia.org/wikipedia/en/0/06/ButtersStotch.png"}/>
       </div>
     )
   }
