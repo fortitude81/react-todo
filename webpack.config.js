@@ -16,7 +16,7 @@ module.exports = {
       'jQuery': 'jquery'
     })
   ],
-  output: {
+  output: {         //where file ends up
     path: __dirname,
     filename: './public/bundle.js'
   },
@@ -30,7 +30,7 @@ module.exports = {
     alias: {
       applicationStyles: 'app/styles/app.scss'
       },
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js', '.jsx']     //the order to which looking for files
   },
   module: {
     loaders: [
